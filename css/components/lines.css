@@ -1,0 +1,15 @@
+.line {
+  height: 2px;
+  width: 7rem;
+  background: var(--primary-colour);
+  display: block;
+  margin: 1.25rem auto;
+}
+
+.v-line {
+  width: 2px;
+  height: 2rem;
+  background: var(--primary-colour);
+  display: block;
+  margin: 0 auto;
+}

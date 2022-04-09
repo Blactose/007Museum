@@ -1,0 +1,36 @@
+.title-1 {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+}
+
+.title-2 {
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-colour);
+}
+
+.text-light {
+  color: var(--light-colour);
+}
+
+.text-dark {
+  color: var(--dark-colour);
+}

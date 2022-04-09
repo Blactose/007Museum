@@ -1,0 +1,15 @@
+.link-1 {
+  border-bottom: 1px solid var(--light-colour);
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.link-1 a {
+  color: var(--light-colour);
+  font-size: 1.1rem;
+  transition: color 0.15s ease;
+}
+
+.link-1 a:hover {
+  color: var(--dark-colour);
+}

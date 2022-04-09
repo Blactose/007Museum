@@ -1,0 +1,23 @@
+@import "./base/reset.css";
+
+@import "./variables/website.css";
+@import "./variables/colours.css";
+@import "./variables/fonts.css";
+@import "./variables/breakpoints.css";
+
+@import "./utilities/backgrounds.css";
+@import "./utilities/alignment.css";
+@import "./utilities/containers.css";
+
+@import "./components/text.css";
+@import "./components/buttons.css";
+@import "./components/links.css";
+@import "./components/lines.css";
+@import "./components/movie-showcase.css";
+
+@import "./layouts/nav.css";
+@import "./layouts/footer.css";
+@import "./layouts/showcase.css";
+
+
+

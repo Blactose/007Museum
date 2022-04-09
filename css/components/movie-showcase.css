@@ -1,0 +1,45 @@
+.movies {
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.movies__image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.movies_track-container {
+    background: lightgreen;
+    height: 50%;
+    position: relative;
+}
+
+.movies-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.movies__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.movies__button--left {
+    left: -40px;
+}
+
+.movies__button--right {
+    right: -40px;
+}
+
+.movies__button img {
+    width: 20px;
+}

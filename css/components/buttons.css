@@ -1,0 +1,46 @@
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.4s;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 75%;
+  transform: scale(1.1);
+}
+
+.btn-xs {
+  padding: 0.5rem 0rem;
+}
+
+.btn-s {
+  padding: 0.5rem 1rem;
+}
+
+.btn-l {
+  padding: 1.5rem 3.2rem;
+}
+
+.btn-stretch {
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--primary-colour);
+  color: var(--light-colour);
+}
+
+.btn-light {
+  background: var(--light-colour);
+  color: var(--dark-colour);
+}
+
+.btn-dark {
+  background: var(--dark-colour);
+  color: var(--light-colour);
+}
+
+

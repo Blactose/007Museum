@@ -1,0 +1,8 @@
+.container {
+  display: block;
+  max-width: var(--website-width);
+  height: 100%;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}

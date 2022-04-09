@@ -1,0 +1,71 @@
+.navbar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--navbar-height-sm);
+  background-color: var(--primary-colour);
+  z-index: 10;
+  border-bottom: 2px solid #000000;
+}
+
+.nav-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav-content > .logo {
+  align-items: center;
+  height: auto;
+}
+
+.nav-content > .logo > img {
+  width: 112.5px;
+}
+
+.nav-content > .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  column-gap: 1.65rem;
+  padding-bottom: 0.3rem;
+}
+
+.nav-content > .nav-links a {
+  color: var(--light-colour);
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-size: 1.1rem;
+  transition: border-color 0.25s ease;
+}
+
+.nav-content > .nav-links a:hover {
+  border-color: var(--light-colour);
+}
+
+.nav-content > .nav-links a.nav-link-active {
+  border-color: var(--light-colour);
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: var(--navbar-height-l);
+  }
+
+  .nav-content {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.75rem;
+  }
+
+  .nav-content > .logo > img {
+    width: 105px;
+  }
+}

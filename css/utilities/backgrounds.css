@@ -1,0 +1,14 @@
+.bg-primary {
+  background-color: var(--primary-colour);
+  color: var(--light-colour);
+}
+
+.bg-light {
+  background-color: var(--light-colour);
+  color: var(--dark-colour);
+}
+
+.bg-dark {
+  background-color: var(--dark-colour);
+  color: var(--light-colour);
+}

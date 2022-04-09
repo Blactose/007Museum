@@ -1,0 +1,7 @@
+:root {
+  --breakpoint-xs: 360px;
+  --breakpoint-s: 500px;
+  --breakpoint-m: 650px;
+  --breakpoint-l: 812px;
+  --breakpoint-verticle: 480px;
+}
